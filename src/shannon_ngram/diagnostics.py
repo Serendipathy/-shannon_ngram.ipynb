@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import math
 from statistics import fmean
 from typing import Sequence
 
@@ -32,13 +33,22 @@ def entropy_series(steps: Sequence[Step]) -> list[float]:
     return [step.entropy for step in steps]
 
 
+def max_entropy_series(steps: Sequence[Step]) -> list[float]:
+    """Entropy if every candidate were equally likely: log2(candidates)."""
+    return [math.log2(step.candidates) if step.candidates > 0 else 0.0 for step in steps]
+
+
 def mean_entropy(steps: Sequence[Step]) -> float:
     series = entropy_series(steps)
     return fmean(series) if series else 0.0
 
 
 def plot_entropy(steps: Sequence[Step], ax=None):
-    """Entropy in bits per sampled word, with backed-off steps marked."""
+    """Entropy in bits per sampled word, with backed-off steps marked.
+
+    The dashed line is the uniform (maximum) entropy for the same candidates;
+    the gap between the two lines is how much the corpus prefers some words.
+    """
     import matplotlib.pyplot as plt
 
     if ax is None:
@@ -47,6 +57,13 @@ def plot_entropy(steps: Sequence[Step], ax=None):
     series = entropy_series(steps)
     positions = list(range(len(series)))
     ax.plot(positions, series, linewidth=1.4, label="entropy")
+    ax.plot(
+        positions,
+        max_entropy_series(steps),
+        linewidth=1.0,
+        linestyle="--",
+        label="maximum (uniform)",
+    )
 
     backed = [i for i, s in enumerate(steps) if s.backed_off]
     if backed:
