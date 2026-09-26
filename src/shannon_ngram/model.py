@@ -10,6 +10,7 @@ from .client import (
     MAX_QUERY_TOKENS,
     KIND_SENTENCE_START,
     Ngram,
+    NgramApiError,
     NgramToken,
 )
 from .config import Settings
@@ -18,6 +19,14 @@ SENTENCE_START = "_START_"
 SENTENCE_END = "_END_"
 
 WILDCARD = "*"
+
+#: An INVALID_QUERY code the model is allowed to read as "this context has no
+#: continuations". Some tokens are legal corpus words but illegal query terms —
+#: a bare `"` comes back BAD_TERM_GROUP — and the sampler can emit them.
+#: TOO_MANY_TOKENS is deliberately not in here: that one means build_query is
+#: broken, and swallowing it would hide the bug.
+UNQUERYABLE_CODE_PREFIX = "INVALID_QUERY."
+FATAL_QUERY_CODES = frozenset({"INVALID_QUERY.TOO_MANY_TOKENS"})
 
 
 def is_usable_token(token: NgramToken) -> bool:
@@ -120,6 +129,16 @@ class NextWordModel:
     def _flags(self) -> tuple[str, ...]:
         return ("cs",) if self.settings.case_sensitive else ()
 
+    def _search(self, query: str) -> list[Ngram]:
+        """A context the API refuses to parse has no continuations — back off."""
+        try:
+            return self.client.search_all(query, flags=self._flags)
+        except NgramApiError as error:
+            code = error.code or ""
+            if code.startswith(UNQUERYABLE_CODE_PREFIX) and code not in FATAL_QUERY_CODES:
+                return []
+            raise
+
     def levels(self, context: Sequence[str], *, at_sentence_start: bool) -> list[int]:
         """Context lengths to try, longest first.
 
@@ -145,7 +164,7 @@ class NextWordModel:
             # context alone fills the room left for words.
             use_start = at_sentence_start and level <= MAX_QUERY_TOKENS - 2
             query = build_query(used, at_sentence_start=use_start)
-            ngrams = self.client.search_all(query, flags=self._flags)
+            ngrams = self._search(query)
             counts = aggregate_counts(ngrams, case_sensitive=settings.case_sensitive)
             if counts:
                 dist = counts_to_distribution(counts)

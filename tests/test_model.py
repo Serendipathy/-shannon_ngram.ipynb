@@ -8,7 +8,7 @@ from pathlib import Path
 
 import pytest
 
-from shannon_ngram.client import Ngram
+from shannon_ngram.client import Ngram, NgramApiError
 from shannon_ngram.config import load_settings
 from shannon_ngram.model import (
     Distribution,
@@ -307,6 +307,54 @@ def test_case_sensitive_setting_sends_the_cs_flag():
     client2 = FlagRecordingClient()
     NextWordModel(client2, load_settings(case_sensitive=False)).distribution(["the"])
     assert client2.flags == [()]
+
+
+class RaisingClient(FixtureClient):
+    def __init__(self, code, responses=None):
+        super().__init__(responses or {})
+        self.code = code
+        self.raised_for: list[str] = []
+
+    def search_all(self, query, *, max_pages=None, limit=None, flags=()):
+        self.queries.append(query)
+        if query not in self.responses:
+            self.raised_for.append(query)
+            raise NgramApiError(f"HTTP 400: {self.code}", code=self.code, status=400)
+        return list(self.responses[query])
+
+
+def test_unqueryable_context_is_treated_as_empty_and_backs_off():
+    """A bare `"` is a real corpus token but an illegal query term."""
+    settings = load_settings(context_length=4, min_context_length=1)
+    client = RaisingClient(
+        "INVALID_QUERY.BAD_TERM_GROUP",
+        {'" *': load_ngrams("backoff_l1_ok.json")},
+    )
+    dist = NextWordModel(client, settings).distribution(["said", ",", "and", '"'])
+    assert dist is not None
+    assert dist.level == 1
+    assert len(client.raised_for) == 3
+
+
+def test_unqueryable_context_at_every_level_returns_none():
+    settings = load_settings(context_length=4, min_context_length=1)
+    client = RaisingClient("INVALID_QUERY.BAD_TERM_GROUP")
+    assert NextWordModel(client, settings).distribution(["a", "b", "c", '"']) is None
+
+
+def test_too_many_tokens_is_not_swallowed():
+    """That code means build_query is broken; hiding it would hide the bug."""
+    settings = load_settings(context_length=4, min_context_length=1)
+    client = RaisingClient("INVALID_QUERY.TOO_MANY_TOKENS")
+    with pytest.raises(NgramApiError):
+        NextWordModel(client, settings).distribution(["a", "b", "c", "d"])
+
+
+def test_other_api_errors_are_not_swallowed():
+    settings = load_settings(context_length=1, min_context_length=1)
+    client = RaisingClient("INVALID_PARAMETER.LIMIT")
+    with pytest.raises(NgramApiError):
+        NextWordModel(client, settings).distribution(["the"])
 
 
 def test_distribution_fields_are_consistent():
