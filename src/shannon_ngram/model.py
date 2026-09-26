@@ -20,13 +20,15 @@ SENTENCE_END = "_END_"
 
 WILDCARD = "*"
 
-#: An INVALID_QUERY code the model is allowed to read as "this context has no
-#: continuations". Some tokens are legal corpus words but illegal query terms —
-#: a bare `"` comes back BAD_TERM_GROUP — and the sampler can emit them.
-#: TOO_MANY_TOKENS is deliberately not in here: that one means build_query is
-#: broken, and swallowing it would hide the bug.
+#: A context the API will not parse is read as "no continuations at this level"
+#: and the model backs off. Two ways it happens, both driven by what the sampler
+#: emitted rather than by a bug here:
+#:   BAD_TERM_GROUP    — a legal corpus token that is not a legal query term (`"`)
+#:   TOO_MANY_TOKENS   — one corpus token the API re-splits into several (`don't`),
+#:                       so a 4-word context can exceed the 5-token cap
+#: build_query's own ≤ 5 space-separated tokens are pinned by unit test, so this
+#: cannot hide a query-building bug.
 UNQUERYABLE_CODE_PREFIX = "INVALID_QUERY."
-FATAL_QUERY_CODES = frozenset({"INVALID_QUERY.TOO_MANY_TOKENS"})
 
 
 def is_usable_token(token: NgramToken) -> bool:
@@ -134,8 +136,7 @@ class NextWordModel:
         try:
             return self.client.search_all(query, flags=self._flags)
         except NgramApiError as error:
-            code = error.code or ""
-            if code.startswith(UNQUERYABLE_CODE_PREFIX) and code not in FATAL_QUERY_CODES:
+            if (error.code or "").startswith(UNQUERYABLE_CODE_PREFIX):
                 return []
             raise
 

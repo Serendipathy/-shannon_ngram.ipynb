@@ -342,12 +342,29 @@ def test_unqueryable_context_at_every_level_returns_none():
     assert NextWordModel(client, settings).distribution(["a", "b", "c", '"']) is None
 
 
-def test_too_many_tokens_is_not_swallowed():
-    """That code means build_query is broken; hiding it would hide the bug."""
+def test_too_many_tokens_also_backs_off():
+    """One corpus token can re-split into several API tokens, e.g. `don't`."""
     settings = load_settings(context_length=4, min_context_length=1)
-    client = RaisingClient("INVALID_QUERY.TOO_MANY_TOKENS")
-    with pytest.raises(NgramApiError):
-        NextWordModel(client, settings).distribution(["a", "b", "c", "d"])
+    client = RaisingClient(
+        "INVALID_QUERY.TOO_MANY_TOKENS",
+        {"d *": load_ngrams("backoff_l1_ok.json")},
+    )
+    dist = NextWordModel(client, settings).distribution(["don't", "b", "c", "d"])
+    assert dist.level == 1
+
+
+@pytest.mark.parametrize(
+    "context",
+    [
+        ("a", "b", "c", "d"),
+        ("don't", "b", "c", "d"),
+        ('"', ",", "--", "x"),
+    ],
+)
+def test_build_query_never_exceeds_five_space_separated_tokens(context):
+    """The local invariant that makes swallowing TOO_MANY_TOKENS safe."""
+    for at_start in (False, True):
+        assert len(build_query(context, at_sentence_start=at_start).split()) <= 5
 
 
 def test_other_api_errors_are_not_swallowed():
