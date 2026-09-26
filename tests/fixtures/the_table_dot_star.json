@@ -1,0 +1,1175 @@
+{
+  "query": "the table . *",
+  "queryTokens": [
+    {
+      "text": "the",
+      "kind": "TERM"
+    },
+    {
+      "text": "table",
+      "kind": "TERM"
+    },
+    {
+      "text": ".",
+      "kind": "TERM"
+    },
+    {
+      "text": "*",
+      "kind": "STAR"
+    }
+  ],
+  "ngrams": [
+    {
+      "id": "1988dc547dea4ade9b7860d3db24ea7f",
+      "absTotalMatchCount": 16588027,
+      "relTotalMatchCount": 8.75091215570553e-06,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "_END_",
+          "kind": "SENTENCE_END",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "f054db564ac64f85110b46e7e31ee6dd",
+      "absTotalMatchCount": 1095980,
+      "relTotalMatchCount": 5.781775436228882e-07,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "Table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "_END_",
+          "kind": "SENTENCE_END",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "d09be8d390e33ad39961657c352c5869",
+      "absTotalMatchCount": 330935,
+      "relTotalMatchCount": 1.745827345378935e-07,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "\"",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "b1d83a8675c61dd58892577cff79c4cc",
+      "absTotalMatchCount": 136193,
+      "relTotalMatchCount": 7.18477838999179e-08,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": ")",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "5a9a92d05795347606cb02b9cea05ee2",
+      "absTotalMatchCount": 49084,
+      "relTotalMatchCount": 2.5893963896408554e-08,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "'",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "b3926253efcc22e92a7169a17bdbebcc",
+      "absTotalMatchCount": 40232,
+      "relTotalMatchCount": 2.1224145454329496e-08,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "]",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "1585f4088883a96ba18b29090c5d5e13",
+      "absTotalMatchCount": 28326,
+      "relTotalMatchCount": 1.4943207997100253e-08,
+      "tokens": [
+        {
+          "text": "THE",
+          "kind": "TERM"
+        },
+        {
+          "text": "TABLE",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "_END_",
+          "kind": "SENTENCE_END",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "b3e3a72fb1a91543cfb234f667ef8a00",
+      "absTotalMatchCount": 7857,
+      "relTotalMatchCount": 4.1449122796447314e-09,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "Table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "\"",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "accedf12420e494b5a0dec993087fd0d",
+      "absTotalMatchCount": 4902,
+      "relTotalMatchCount": 2.586020108797057e-09,
+      "tokens": [
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "Table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "_END_",
+          "kind": "SENTENCE_END",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "db998a4416234c412a37a33aa4688388",
+      "absTotalMatchCount": 3540,
+      "relTotalMatchCount": 1.8675053417261487e-09,
+      "tokens": [
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "_END_",
+          "kind": "SENTENCE_END",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "b963009afa117be42ef8e189cc318c17",
+      "absTotalMatchCount": 2533,
+      "relTotalMatchCount": 1.336268652709699e-09,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "Table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": ")",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "48dba7883d38100ccb143a164efe44b5",
+      "absTotalMatchCount": 2493,
+      "relTotalMatchCount": 1.3151668974359572e-09,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "***",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "b65b48d27c89394a2ed81696f7b2aac6",
+      "absTotalMatchCount": 2066,
+      "relTotalMatchCount": 1.0899056598887636e-09,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "TABLE",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "_END_",
+          "kind": "SENTENCE_END",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "dc5367b100ed40585945cb5977334cd2",
+      "absTotalMatchCount": 1986,
+      "relTotalMatchCount": 1.04770214934128e-09,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "**",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "28fd64c24d76358f8a2d3c3bbdb0cc6f",
+      "absTotalMatchCount": 1701,
+      "relTotalMatchCount": 8.973521430158697e-10,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "...",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "76b5dbac1c206a994bcef119c4b4d3ec",
+      "absTotalMatchCount": 1173,
+      "relTotalMatchCount": 6.188089734024781e-10,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "''",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "39f76000db4ad57618a0633a9fe4472c",
+      "absTotalMatchCount": 882,
+      "relTotalMatchCount": 4.6529370378600654e-10,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "Table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "'",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "61399daf74e67713fbc080dcc5b459be",
+      "absTotalMatchCount": 788,
+      "relTotalMatchCount": 4.1570457889271334e-10,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "Table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "]",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "9204f2ada214c77160c7e1297854b730",
+      "absTotalMatchCount": 615,
+      "relTotalMatchCount": 3.244394873337801e-10,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "****",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "d6f63978c801494e69b0895702f4ec4b",
+      "absTotalMatchCount": 591,
+      "relTotalMatchCount": 3.11778434169535e-10,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "}",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "27cfaace86707389e393b2eb1760aa24",
+      "absTotalMatchCount": 589,
+      "relTotalMatchCount": 3.107233464058479e-10,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "..",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "0be074d3ab2099b2c2786a30d3f5c7a2",
+      "absTotalMatchCount": 503,
+      "relTotalMatchCount": 2.6535457256730305e-10,
+      "tokens": [
+        {
+          "text": "THE",
+          "kind": "TERM"
+        },
+        {
+          "text": "TABLE",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "\"",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "ce5a72b8883d33ab1d99b5be3ff3cd15",
+      "absTotalMatchCount": 478,
+      "relTotalMatchCount": 2.5216597552121444e-10,
+      "tokens": [
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "Table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "\"",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "c321641ae2cbc238a1b3772dd005eb3b",
+      "absTotalMatchCount": 353,
+      "relTotalMatchCount": 1.8622299029077132e-10,
+      "tokens": [
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "\"",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "bbf3cc1a87d354628c893600c6c95e92",
+      "absTotalMatchCount": 334,
+      "relTotalMatchCount": 1.7619965653574398e-10,
+      "tokens": [
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "TABLE",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "_END_",
+          "kind": "SENTENCE_END",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "ff3a4fb56343707bbc92fd8c20b6127b",
+      "absTotalMatchCount": 329,
+      "relTotalMatchCount": 1.7356193712652624e-10,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "*****",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "6b981223d33e75602e4bfadc8e7970a4",
+      "absTotalMatchCount": 284,
+      "relTotalMatchCount": 1.4982246244356673e-10,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "__",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "1e6e4a8de43b9b81557c61c8a92286ed",
+      "absTotalMatchCount": 256,
+      "relTotalMatchCount": 1.3505123375194747e-10,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "Table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "**",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "58f0cb3fb3f9b9f1a484d6507a40a51b",
+      "absTotalMatchCount": 256,
+      "relTotalMatchCount": 1.3505123375194747e-10,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "Table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "...",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "0993e10d7b85049edf12e5fe7d82a4ff",
+      "absTotalMatchCount": 176,
+      "relTotalMatchCount": 9.284772320446389e-11,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "....",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "0815a99a7b8d6bc6d8f1ce240fbc92e4",
+      "absTotalMatchCount": 171,
+      "relTotalMatchCount": 9.021000379524617e-11,
+      "tokens": [
+        {
+          "text": "THE",
+          "kind": "TERM"
+        },
+        {
+          "text": "TABLE",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": ")",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "08f60594d60374a2907bcb4a17c1da58",
+      "absTotalMatchCount": 109,
+      "relTotalMatchCount": 5.750228312094639e-11,
+      "tokens": [
+        {
+          "text": "THE",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "_END_",
+          "kind": "SENTENCE_END",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "b08b7140615942f2fc0f86b56ff92192",
+      "absTotalMatchCount": 99,
+      "relTotalMatchCount": 5.222684430251094e-11,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "Table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "..",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "bcc65f8bd97b995cb3f20e17748de30d",
+      "absTotalMatchCount": 92,
+      "relTotalMatchCount": 4.8534037129606126e-11,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "******",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "e03c72631e215b7adad5adf0b40088dc",
+      "absTotalMatchCount": 82,
+      "relTotalMatchCount": 4.3258598311170676e-11,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "[",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "2e8e1f9758f8b4ba7f0bcee6df6f5fd3",
+      "absTotalMatchCount": 79,
+      "relTotalMatchCount": 4.167596666564004e-11,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "*******",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "df2c3ef661f4e2ab04d21cf6a861dd70",
+      "absTotalMatchCount": 70,
+      "relTotalMatchCount": 3.692807172904814e-11,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "Table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "''",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "258080d4cac53d17469343832e2cddfa",
+      "absTotalMatchCount": 67,
+      "relTotalMatchCount": 3.53454400835175e-11,
+      "tokens": [
+        {
+          "text": "THE",
+          "kind": "TERM"
+        },
+        {
+          "text": "TABLE",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "'",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "4fc94187b6526b0dee8223f0a0a7533f",
+      "absTotalMatchCount": 55,
+      "relTotalMatchCount": 2.9014913501394967e-11,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "/",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "31dc6f97d1475e38d89f977258eeeff8",
+      "absTotalMatchCount": 54,
+      "relTotalMatchCount": 2.8487369619551422e-11,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "Table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "***",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "ddb335cda030ff1cf9e8cfa026cdafd1",
+      "absTotalMatchCount": 53,
+      "relTotalMatchCount": 2.7959825737707877e-11,
+      "tokens": [
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "Table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "'",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "4d01c18560e6cea4d184e0ae58a7bf99",
+      "absTotalMatchCount": 50,
+      "relTotalMatchCount": 2.6377194092177242e-11,
+      "tokens": [
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "'",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "33934d93ef4c5761f86c86792229278a",
+      "absTotalMatchCount": 50,
+      "relTotalMatchCount": 2.6377194092177242e-11,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "Table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "....",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "6f75f0585705b9da0a8b48ccf80267e3",
+      "absTotalMatchCount": 49,
+      "relTotalMatchCount": 2.5849650210333698e-11,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "TABLE",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "\"",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "775c02fce26b0fd40d1b3117efca180a",
+      "absTotalMatchCount": 49,
+      "relTotalMatchCount": 2.5849650210333698e-11,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "___",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "f3f709c0e3df844d1437eeda60bbce83",
+      "absTotalMatchCount": 46,
+      "relTotalMatchCount": 2.4267018564803063e-11,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "::",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "aeebe57778a83bb2fafab4e25bc95796",
+      "absTotalMatchCount": 45,
+      "relTotalMatchCount": 2.3739474682959518e-11,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": "c",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "598d4a634df362da9f74acd309e076a3",
+      "absTotalMatchCount": 44,
+      "relTotalMatchCount": 2.3211930801115973e-11,
+      "tokens": [
+        {
+          "text": "the",
+          "kind": "TERM"
+        },
+        {
+          "text": "table",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM"
+        },
+        {
+          "text": ".....",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    }
+  ]
+}

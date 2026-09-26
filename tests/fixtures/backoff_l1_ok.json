@@ -1,0 +1,1617 @@
+{
+  "query": "quixotic *",
+  "queryTokens": [
+    {
+      "text": "quixotic",
+      "kind": "TERM"
+    },
+    {
+      "text": "*",
+      "kind": "STAR"
+    }
+  ],
+  "ngrams": [
+    {
+      "id": "a1519464ecc66a3f4808b9afaa5212b2",
+      "absTotalMatchCount": 44867,
+      "relTotalMatchCount": 2.1370791844901345e-08,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": ",",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "30a062c4cd5839340b3fb6647925b225",
+      "absTotalMatchCount": 30323,
+      "relTotalMatchCount": 1.444327726643064e-08,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "ec8e7a1ef91ff5f87a0792f540fd891b",
+      "absTotalMatchCount": 19205,
+      "relTotalMatchCount": 9.147615338251507e-09,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "and",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "44200f4c924c6d3cccf6d4d2c4d90637",
+      "absTotalMatchCount": 14065,
+      "relTotalMatchCount": 6.6993600485554506e-09,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": ",",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "325a3512b86e32da3ee10aec51fa574e",
+      "absTotalMatchCount": 10829,
+      "relTotalMatchCount": 5.158007107416067e-09,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "to",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "0b59ad6ea1906b57802b3b96e834a17e",
+      "absTotalMatchCount": 8030,
+      "relTotalMatchCount": 3.824803497326717e-09,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": ".",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "81a3d4e8f3ff3acf4c43a925e9fd3bcf",
+      "absTotalMatchCount": 7236,
+      "relTotalMatchCount": 3.4466099759223067e-09,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "quest",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "b1013f690e5ee476d8c23c3360480354",
+      "absTotalMatchCount": 6922,
+      "relTotalMatchCount": 3.2970472986918472e-09,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "in",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "b31a98ad668909cd448e976e77baaede",
+      "absTotalMatchCount": 5655,
+      "relTotalMatchCount": 2.6935571329243566e-09,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "attempt",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "21d31543abe62b892ba0b4d8dac19cc0",
+      "absTotalMatchCount": 5447,
+      "relTotalMatchCount": 2.5944837671156447e-09,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "as",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "f86ad1a0848413291f539923b1f03dea",
+      "absTotalMatchCount": 4165,
+      "relTotalMatchCount": 1.983848887467718e-09,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "\"",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "d66a5d3f365401a622fb1cffb8c29417",
+      "absTotalMatchCount": 4105,
+      "relTotalMatchCount": 1.955270031945974e-09,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "gesture",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "c9f835ef901df6d975409b0098474fcf",
+      "absTotalMatchCount": 3829,
+      "relTotalMatchCount": 1.8238072965459526e-09,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "and",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "e8577c68bd0312f93b31b11e846d6663",
+      "absTotalMatchCount": 3512,
+      "relTotalMatchCount": 1.672815676539406e-09,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "or",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "8db30113306a75b1a353e782e89e5d40",
+      "absTotalMatchCount": 3341,
+      "relTotalMatchCount": 1.591365938302436e-09,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "nature",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "2821683ab38ca105ae38c7b9d1aeac3b",
+      "absTotalMatchCount": 3100,
+      "relTotalMatchCount": 1.476574201956765e-09,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": ";",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "d294c9cd9c40171a3f014cb217e42720",
+      "absTotalMatchCount": 2982,
+      "relTotalMatchCount": 1.4203691194306687e-09,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "effort",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "021a284db44ce6293dc8db7e52a2af00",
+      "absTotalMatchCount": 2822,
+      "relTotalMatchCount": 1.3441588380393518e-09,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "enterprise",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "0b8ac3be33aaa0466eab5780685476b2",
+      "absTotalMatchCount": 2807,
+      "relTotalMatchCount": 1.3370141241589157e-09,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "in",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "0d2c58f3075a33dee020ea13a1b2a627",
+      "absTotalMatchCount": 2451,
+      "relTotalMatchCount": 1.1674462480632358e-09,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "to",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "4f9616c1a6f82e77b03fd01a39ef8e0a",
+      "absTotalMatchCount": 2389,
+      "relTotalMatchCount": 1.1379147640241005e-09,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "as",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "11316140552e1b45faab94eb99f377ef",
+      "absTotalMatchCount": 2367,
+      "relTotalMatchCount": 1.1274358503327943e-09,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "idea",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "e4d67175d8b1ffde1d675044144f9252",
+      "absTotalMatchCount": 2239,
+      "relTotalMatchCount": 1.0664676252197407e-09,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "figure",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "afe8a08f9c202cf78ff20e7eb9950735",
+      "absTotalMatchCount": 2181,
+      "relTotalMatchCount": 1.0388413982153884e-09,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "campaign",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "9449e82724df14cb07751f354844eee6",
+      "absTotalMatchCount": 2158,
+      "relTotalMatchCount": 1.0278861702653866e-09,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "mission",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "51c719df7f893f7764bba34483df2470",
+      "absTotalMatchCount": 2041,
+      "relTotalMatchCount": 9.721574019979862e-10,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "expedition",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "2cc10adcdaf243ac1940f9bf3626bec8",
+      "absTotalMatchCount": 2018,
+      "relTotalMatchCount": 9.612021740479844e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "character",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "bc13d4636aabed029a36bb94a81d6911",
+      "absTotalMatchCount": 1939,
+      "relTotalMatchCount": 9.235733476110216e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "but",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "e8e29b626af425073cc8ef6e1e25fef1",
+      "absTotalMatchCount": 1931,
+      "relTotalMatchCount": 9.197628335414557e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "notion",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "b31a26ff356b13021e374ac33d6e480f",
+      "absTotalMatchCount": 1915,
+      "relTotalMatchCount": 9.121418054023241e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "search",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "06d80c78920d112b53d25220e88e11a5",
+      "absTotalMatchCount": 1866,
+      "relTotalMatchCount": 8.888024067262333e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "adventure",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "c574c58e034471c5a48bbe4ff00392d8",
+      "absTotalMatchCount": 1810,
+      "relTotalMatchCount": 8.621288082392724e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "venture",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "63664b904ca2ba4cbd6365f29f1e4165",
+      "absTotalMatchCount": 1804,
+      "relTotalMatchCount": 8.59270922687098e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "than",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "9178d2330d29fe1c1790c3d888f39219",
+      "absTotalMatchCount": 1797,
+      "relTotalMatchCount": 8.559367228762279e-10,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "enterprise",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "2f1bef883c946aed1c2072a386f95001",
+      "absTotalMatchCount": 1785,
+      "relTotalMatchCount": 8.502209517718792e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "generosity",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "fcfcf4fd09a5d9741712d6004966e840",
+      "absTotalMatchCount": 1771,
+      "relTotalMatchCount": 8.435525521501389e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "at",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "e38fcac38bdb3c3b4231b62282e0178a",
+      "absTotalMatchCount": 1747,
+      "relTotalMatchCount": 8.321210099414414e-10,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": ";",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "26ba97b7aca251ba9164b4965507e1c6",
+      "absTotalMatchCount": 1701,
+      "relTotalMatchCount": 8.102105540414378e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "'",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "169135cc0fc82a598e30ef627294ea26",
+      "absTotalMatchCount": 1641,
+      "relTotalMatchCount": 7.81631698519694e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "crusade",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "fa5cbfd48934021b3e35d3a181526d2d",
+      "absTotalMatchCount": 1582,
+      "relTotalMatchCount": 7.535291572566458e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "task",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "f073419494ad1a2742e9dc6534c093b4",
+      "absTotalMatchCount": 1554,
+      "relTotalMatchCount": 7.401923580131654e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": ":",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "218b5383a6fa0b76bcdec4f65f1c2e24",
+      "absTotalMatchCount": 1547,
+      "relTotalMatchCount": 7.368581582022953e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "about",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "570dbd4e26954279f6763ac3e795da55",
+      "absTotalMatchCount": 1546,
+      "relTotalMatchCount": 7.363818439435995e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "sense",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "d1c43420a678aac7a03cde99a9cf0e51",
+      "absTotalMatchCount": 1534,
+      "relTotalMatchCount": 7.306660728392507e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "dream",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "d4c72c2439a5f6a684eccd522396398a",
+      "absTotalMatchCount": 1476,
+      "relTotalMatchCount": 7.030398458348983e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "pursuit",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "a7bca8c82983c55b5c7c660f65d65423",
+      "absTotalMatchCount": 1469,
+      "relTotalMatchCount": 6.997056460240283e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "efforts",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "402db1408356b1dc6d82c765965f6b3d",
+      "absTotalMatchCount": 1460,
+      "relTotalMatchCount": 6.954188176957667e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "of",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "8d10c51db60863f4985b0cf1c8026b38",
+      "absTotalMatchCount": 1448,
+      "relTotalMatchCount": 6.897030465914179e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "for",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "5b875bb2d4fe0786e90d4303ee139b0a",
+      "absTotalMatchCount": 1442,
+      "relTotalMatchCount": 6.868451610392436e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "(",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "82dcc6a35eef4e0c258e207eac834658",
+      "absTotalMatchCount": 1432,
+      "relTotalMatchCount": 6.820820184522862e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "enough",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "d9d1c49bcdacd4ca173a5b2ee7d4b852",
+      "absTotalMatchCount": 1416,
+      "relTotalMatchCount": 6.744609903131545e-10,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "attempt",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "4eef075581b0bc7be63cde523cfc3ced",
+      "absTotalMatchCount": 1401,
+      "relTotalMatchCount": 6.673162764327186e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "undertaking",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "2b99340dee163ba2a92f0a281253de3f",
+      "absTotalMatchCount": 1397,
+      "relTotalMatchCount": 6.654110193979356e-10,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "scheme",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "3cb2adfde13c6b7bdbafdd78cc45a39b",
+      "absTotalMatchCount": 1396,
+      "relTotalMatchCount": 6.649347051392399e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "--",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "8e10000b6874c2fd366d10715705cdf9",
+      "absTotalMatchCount": 1396,
+      "relTotalMatchCount": 6.649347051392399e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "attempts",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "50b00b6f0d2ca2e7151501ee3b181dd3",
+      "absTotalMatchCount": 1365,
+      "relTotalMatchCount": 6.501689631196722e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "project",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "e92f9eb5ea47d07150f58a3080358b4e",
+      "absTotalMatchCount": 1360,
+      "relTotalMatchCount": 6.477873918261936e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "scheme",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "c8829e90743412f0060e5dabaa784bdf",
+      "absTotalMatchCount": 1324,
+      "relTotalMatchCount": 6.306400785131473e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "-",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "6c2cf731d938f3487e1958b3ca22d8e9",
+      "absTotalMatchCount": 1309,
+      "relTotalMatchCount": 6.234953646327113e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "one",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "79e9dc35ec00144e456662f97b3f866f",
+      "absTotalMatchCount": 1269,
+      "relTotalMatchCount": 6.044427942848822e-10,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "notions",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "5556513b34cb5638c87aca51bc019577",
+      "absTotalMatchCount": 1268,
+      "relTotalMatchCount": 6.039664800261864e-10,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "idea",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "7a28ac1370bf551012b7236b9021f262",
+      "absTotalMatchCount": 1236,
+      "relTotalMatchCount": 5.88724423747923e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "adventures",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "68ff3eff17002f2aaa817cce7a13af7c",
+      "absTotalMatchCount": 1231,
+      "relTotalMatchCount": 5.863428524544444e-10,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "\"",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "6ceda0141fd7a8dcfaaf11b940877b16",
+      "absTotalMatchCount": 1222,
+      "relTotalMatchCount": 5.820560241261828e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "ideas",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "b6d4e08d9b03279a98d3587b4d518d7c",
+      "absTotalMatchCount": 1208,
+      "relTotalMatchCount": 5.753876245044426e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "hero",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "a57ccb7f9f22afb8b5746b9b4cb5f634",
+      "absTotalMatchCount": 1204,
+      "relTotalMatchCount": 5.734823674696597e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "act",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "651a92dc678389986f4dfb523e691621",
+      "absTotalMatchCount": 1186,
+      "relTotalMatchCount": 5.649087108131365e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "?",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "2e3da94b13849fe92e3ed82358f82e00",
+      "absTotalMatchCount": 1167,
+      "relTotalMatchCount": 5.558587398979176e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "notions",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "aa2d4774aedc5f46075230a727e860de",
+      "absTotalMatchCount": 1166,
+      "relTotalMatchCount": 5.553824256392219e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "expedition",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "5a3ed4a0b35bdb88c71b1f05decb7331",
+      "absTotalMatchCount": 1124,
+      "relTotalMatchCount": 5.353772267740012e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "behavior",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "55dcb8a3ab0204116423413906922723",
+      "absTotalMatchCount": 1123,
+      "relTotalMatchCount": 5.349009125153055e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "way",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "760d33f12f955223624490c544e022c8",
+      "absTotalMatchCount": 1064,
+      "relTotalMatchCount": 5.067983712522574e-10,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "enough",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "55605cb86403b41eb921954861ea0008",
+      "absTotalMatchCount": 1063,
+      "relTotalMatchCount": 5.063220569935616e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "plan",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "4b2661c3d2d7de7cdaec9e9c7f3f7112",
+      "absTotalMatchCount": 1062,
+      "relTotalMatchCount": 5.058457427348659e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "chivalry",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "7d89f8901dceedda3cf653d7db59e9a5",
+      "absTotalMatchCount": 1059,
+      "relTotalMatchCount": 5.044167999587787e-10,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "adventure",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "2b9f609f7097a212f23c4781c73bf6f7",
+      "absTotalMatchCount": 1034,
+      "relTotalMatchCount": 4.925089434913855e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "desire",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "ef2f3ca453340532916f51a42a148a8d",
+      "absTotalMatchCount": 1017,
+      "relTotalMatchCount": 4.84411601093558e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "idealism",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "25ecce3f37ad2884d598c5a3933b99ae",
+      "absTotalMatchCount": 1005,
+      "relTotalMatchCount": 4.786958299892093e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "impulse",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "d80d220f9064d2b3b398334debf6e19c",
+      "absTotalMatchCount": 1003,
+      "relTotalMatchCount": 4.777432014718178e-10,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "enthusiasm",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "1cb409bb74e45e577273b3634fd86a5b",
+      "absTotalMatchCount": 1002,
+      "relTotalMatchCount": 4.772668872131221e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "hope",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "124bf5cc05188eadb72092810b79cc9e",
+      "absTotalMatchCount": 962,
+      "relTotalMatchCount": 4.5821431686529285e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "journey",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "4074b3ad4af8cf3a484753a9facbb6cc",
+      "absTotalMatchCount": 959,
+      "relTotalMatchCount": 4.5678537408920565e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "action",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "77b93dbce8dd17afa183576c829e4c54",
+      "absTotalMatchCount": 954,
+      "relTotalMatchCount": 4.54403802795727e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "spirit",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "100b1fddf1ced6a7b5bfe1dd86261186",
+      "absTotalMatchCount": 947,
+      "relTotalMatchCount": 4.510696029848569e-10,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "quest",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "072b10cd985948d80d3e6569ac2a0457",
+      "absTotalMatchCount": 895,
+      "relTotalMatchCount": 4.2630126153267887e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "young",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "d498b14e812687f8efd9580726750583",
+      "absTotalMatchCount": 892,
+      "relTotalMatchCount": 4.248723187565917e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "folly",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "012fcd84c6fd701a7e92205e6ec067f8",
+      "absTotalMatchCount": 880,
+      "relTotalMatchCount": 4.191565476522429e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "thing",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "50127d766a26c5c2161edbcce24e77fb",
+      "absTotalMatchCount": 875,
+      "relTotalMatchCount": 4.167749763587643e-10,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "Crusade",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "f1141c66e8d9b7ebf34ef5dda8b1b4ec",
+      "absTotalMatchCount": 865,
+      "relTotalMatchCount": 4.12011833771807e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "battle",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "e531a66387badabde9096b1bede39871",
+      "absTotalMatchCount": 864,
+      "relTotalMatchCount": 4.1153551951311126e-10,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "notion",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "2b6cda7935ea72843195fed188064770",
+      "absTotalMatchCount": 862,
+      "relTotalMatchCount": 4.105828909957198e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "goal",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "30e9c2d1771b6c9afbacd6655c46221c",
+      "absTotalMatchCount": 861,
+      "relTotalMatchCount": 4.1010657673702406e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": ")",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "0f7e96f032f23a2526734daec2305fb3",
+      "absTotalMatchCount": 852,
+      "relTotalMatchCount": 4.0581974840876245e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "a",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "32e30fb4707445c1c67d00ac42285186",
+      "absTotalMatchCount": 843,
+      "relTotalMatchCount": 4.015329200805009e-10,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "spirit",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "b1b28402cdf3050f7e87b3851ddad22d",
+      "absTotalMatchCount": 843,
+      "relTotalMatchCount": 4.015329200805009e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "gestures",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "367fc7c441ac193af4bb63b3dccbb617",
+      "absTotalMatchCount": 841,
+      "relTotalMatchCount": 4.0058029156310943e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "fool",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "54b9c6d221643d11622d847dc6726cf6",
+      "absTotalMatchCount": 826,
+      "relTotalMatchCount": 3.9343557768267346e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "decision",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "9fa82faa10d418a7e6e66c8abfabd457",
+      "absTotalMatchCount": 820,
+      "relTotalMatchCount": 3.905776921304991e-10,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "or",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "c9c2ea25fc997e4a35456d76e3ef2f68",
+      "absTotalMatchCount": 809,
+      "relTotalMatchCount": 3.8533823528484603e-10,
+      "tokens": [
+        {
+          "text": "Quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "Quest",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "83a1740beafeda52037c3e553301d79f",
+      "absTotalMatchCount": 805,
+      "relTotalMatchCount": 3.8343297825006315e-10,
+      "tokens": [
+        {
+          "text": "quixotic",
+          "kind": "TERM"
+        },
+        {
+          "text": "that",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    }
+  ],
+  "nextPageToken": "62307c648799e5378004a9d148f127867a05d546aef8aa427d8f3b8c73fd60e49fbb710d1b6302ce9a21f4d3de1e0a14",
+  "nextPageLink": "https://api.ngrams.dev/eng/search?query=quixotic+%2A&start=62307c648799e5378004a9d148f127867a05d546aef8aa427d8f3b8c73fd60e49fbb710d1b6302ce9a21f4d3de1e0a14"
+}

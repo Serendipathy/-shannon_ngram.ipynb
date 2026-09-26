@@ -1,0 +1,26 @@
+{
+  "query": "a small green quixotic *",
+  "queryTokens": [
+    {
+      "text": "a",
+      "kind": "TERM"
+    },
+    {
+      "text": "small",
+      "kind": "TERM"
+    },
+    {
+      "text": "green",
+      "kind": "TERM"
+    },
+    {
+      "text": "quixotic",
+      "kind": "TERM"
+    },
+    {
+      "text": "*",
+      "kind": "STAR"
+    }
+  ],
+  "ngrams": []
+}

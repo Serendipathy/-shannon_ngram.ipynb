@@ -1,0 +1,2021 @@
+{
+  "query": "_START_ The *",
+  "queryTokens": [
+    {
+      "text": "_START_",
+      "kind": "SENTENCE_START"
+    },
+    {
+      "text": "The",
+      "kind": "TERM"
+    },
+    {
+      "text": "*",
+      "kind": "STAR"
+    }
+  ],
+  "ngrams": [
+    {
+      "id": "919fd1ee2dda19f6531898b39d2d454a",
+      "absTotalMatchCount": 117969951,
+      "relTotalMatchCount": 5.9058338634135154e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "first",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "13e79553d7de77641d0f15cdee00f7b3",
+      "absTotalMatchCount": 71913761,
+      "relTotalMatchCount": 3.600160221811283e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "following",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "8010a19d79e96d55b085bb38245ffc42",
+      "absTotalMatchCount": 52774344,
+      "relTotalMatchCount": 2.6419991300550248e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "most",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "5b643a0bf1c8285913e1f8ea62d21bea",
+      "absTotalMatchCount": 51242001,
+      "relTotalMatchCount": 2.565286686733211e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "second",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "c5a4523eb5ed634b34c28a5e520661f8",
+      "absTotalMatchCount": 45410486,
+      "relTotalMatchCount": 2.273348286572276e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "only",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "914cf14dc33cb116b3e48e7edafe982a",
+      "absTotalMatchCount": 43806845,
+      "relTotalMatchCount": 2.193066509371586e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "same",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "0ec9b0dc2d5412e10c31f6d0522e5d02",
+      "absTotalMatchCount": 38866295,
+      "relTotalMatchCount": 1.9457317665277272e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "two",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "9b23bf5df9cb11178962d6869d0eea13",
+      "absTotalMatchCount": 38318367,
+      "relTotalMatchCount": 1.9183012919900846e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "other",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "8871b7c0d2acc8d7d9c2aa3f42e1a0e7",
+      "absTotalMatchCount": 36283110,
+      "relTotalMatchCount": 1.8164118734605353e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "next",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "0432fd90a358f5fafaa1f6bc005d0e5a",
+      "absTotalMatchCount": 35488748,
+      "relTotalMatchCount": 1.776644373689268e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "results",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "524721dd87bdf6dcc0ab340864f51b62",
+      "absTotalMatchCount": 32822946,
+      "relTotalMatchCount": 1.6431884928374108e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "question",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "3b464d0c8c4038ada94af5eea380ebd9",
+      "absTotalMatchCount": 31038565,
+      "relTotalMatchCount": 1.5538584757805104e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "new",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "d5e81b3683f5342c37afd0896ffc5332",
+      "absTotalMatchCount": 30650920,
+      "relTotalMatchCount": 1.5344521189194915e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "\"",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "57d4482e79aa669db1c3e4d1cceeed01",
+      "absTotalMatchCount": 29702700,
+      "relTotalMatchCount": 1.4869821510293974e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "latter",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "b2d039b2e8f3d9540e009462ac1324fb",
+      "absTotalMatchCount": 29355425,
+      "relTotalMatchCount": 1.4695968046972885e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "fact",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "9eef5c6d45abd3318f972b7981556b3b",
+      "absTotalMatchCount": 28375979,
+      "relTotalMatchCount": 1.4205635949252093e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "number",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "5a91c75ad630d70a8c8d718a52cd3d39",
+      "absTotalMatchCount": 27294311,
+      "relTotalMatchCount": 1.3664129281730396e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "main",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "4358c48d8716e6ec42dd7d4d953c0bf8",
+      "absTotalMatchCount": 26830891,
+      "relTotalMatchCount": 1.3432131090175407e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "court",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "7462877be9f2816775d06009f838ee36",
+      "absTotalMatchCount": 26573359,
+      "relTotalMatchCount": 1.3303204936216708e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "total",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "60566766f4e7f57a759da839b3a48d1a",
+      "absTotalMatchCount": 24561593,
+      "relTotalMatchCount": 1.2296070859500514e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "result",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "1546e12a86e1797e02a1d4af281dc8ca",
+      "absTotalMatchCount": 23501797,
+      "relTotalMatchCount": 1.1765513793734658e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "last",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "7606f8ba6a0d3b48573b61b6b4292b80",
+      "absTotalMatchCount": 22616312,
+      "relTotalMatchCount": 1.1322220628465417e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "present",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "9e0327a61ed3af3b1a3ecf81d79e819d",
+      "absTotalMatchCount": 22340151,
+      "relTotalMatchCount": 1.1183968389507199e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "whole",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "7e3f9fb7f228fe9096a49c55191c5c8c",
+      "absTotalMatchCount": 21650025,
+      "relTotalMatchCount": 1.0838476214061427e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "average",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "e76cacd306990df3cac8e9b411d34a62",
+      "absTotalMatchCount": 21235967,
+      "relTotalMatchCount": 1.0631189719739048e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "author",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "0ee4746cef0b0c3af571cb1c755e4796",
+      "absTotalMatchCount": 20324171,
+      "relTotalMatchCount": 1.0174724692189363e-05,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "use",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "486d33407faff79f8324b65876c6c23a",
+      "absTotalMatchCount": 19554456,
+      "relTotalMatchCount": 9.789388521949085e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "third",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "e268236dbec4411828710a8731e21a74",
+      "absTotalMatchCount": 18753854,
+      "relTotalMatchCount": 9.388589643706219e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "effect",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "4959b360328bce737dff5b8a42bda145",
+      "absTotalMatchCount": 18435402,
+      "relTotalMatchCount": 9.229165604827729e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "man",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "931a4e5e951cc258be4cd20253ab0434",
+      "absTotalMatchCount": 18189654,
+      "relTotalMatchCount": 9.106138779101054e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "work",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "3e557f44a99e8bea94a42ea34730ebc5",
+      "absTotalMatchCount": 18150217,
+      "relTotalMatchCount": 9.086395754025843e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "best",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "a5700f270b006f3747a972f55e5c2d35",
+      "absTotalMatchCount": 18110696,
+      "relTotalMatchCount": 9.066610676712726e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "problem",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "09bcafcf9aaf811c04fe42c4157ba245",
+      "absTotalMatchCount": 17861185,
+      "relTotalMatchCount": 8.941700010852216e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "general",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "5be81c8f819991f932ad51c8427bd630",
+      "absTotalMatchCount": 17780393,
+      "relTotalMatchCount": 8.901253767936262e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "amount",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "8eb838c81f7b848b892958fff266f67e",
+      "absTotalMatchCount": 16865099,
+      "relTotalMatchCount": 8.443037565050902e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "company",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "969b9d865328f1d9c2462c6724c3e4e4",
+      "absTotalMatchCount": 16863317,
+      "relTotalMatchCount": 8.442145456861028e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "term",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "6e515bf1ecce26a62d9d8206bc6220df",
+      "absTotalMatchCount": 16703811,
+      "relTotalMatchCount": 8.362293263295428e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "old",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "db12fbe5cb5f334bdbaea4dfffc6ab8a",
+      "absTotalMatchCount": 16206392,
+      "relTotalMatchCount": 8.11327442844779e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "reason",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "119f4aad20a5bfb111ddc73bd491c1ab",
+      "absTotalMatchCount": 16181072,
+      "relTotalMatchCount": 8.100598682450268e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "report",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "7e99b179b99456a4f0f70ba8ceaa8e75",
+      "absTotalMatchCount": 16167129,
+      "relTotalMatchCount": 8.093618511579673e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "Court",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "5ad4634c35f11616bc6b8b291e86b387",
+      "absTotalMatchCount": 15936322,
+      "relTotalMatchCount": 7.978071477359671e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "Commission",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "2dc82d9dc394e8766c0ce5266ca912bc",
+      "absTotalMatchCount": 15492686,
+      "relTotalMatchCount": 7.755977589075415e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "purpose",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "a759329649442b96b38b564b5990ddb8",
+      "absTotalMatchCount": 15457508,
+      "relTotalMatchCount": 7.738366712586439e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "United",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "eb8c1804f3f43ce8772bf955951e747e",
+      "absTotalMatchCount": 15281371,
+      "relTotalMatchCount": 7.650188676537237e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "more",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "573badad0b28da6585186a53e0bfa003",
+      "absTotalMatchCount": 15231239,
+      "relTotalMatchCount": 7.625091500457147e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "Committee",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "2bb487f4041c68f702671138296498c8",
+      "absTotalMatchCount": 15217128,
+      "relTotalMatchCount": 7.618027225110739e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "Chairman",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "faf84b33f617d9318464e461e415c4d3",
+      "absTotalMatchCount": 15008241,
+      "relTotalMatchCount": 7.513453822496809e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "great",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "77583d0d04803bf6307571a476a8761e",
+      "absTotalMatchCount": 14678649,
+      "relTotalMatchCount": 7.348452855876912e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "data",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "ad0eea68074a3592823dcd7ca764fe63",
+      "absTotalMatchCount": 14494453,
+      "relTotalMatchCount": 7.256240308098087e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "President",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "ca91691d1163a7e2a860c4287c5d998e",
+      "absTotalMatchCount": 14304155,
+      "relTotalMatchCount": 7.160972965608484e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "principal",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "78afb9b2204d0a752410fddd28918042",
+      "absTotalMatchCount": 14114035,
+      "relTotalMatchCount": 7.065794733813493e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "three",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "2779f24304b1ecd29a062e1537ce8639",
+      "absTotalMatchCount": 13668604,
+      "relTotalMatchCount": 6.842802229254925e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "case",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "eec210e48ae0c052c67bf951f52db6fb",
+      "absTotalMatchCount": 13658301,
+      "relTotalMatchCount": 6.837644322026944e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "bill",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "e63b7fafcae94722b06c2622ff802832",
+      "absTotalMatchCount": 13457894,
+      "relTotalMatchCount": 6.737316192954049e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "people",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "1ec295cd7b516ceb1e2605587cb7ea36",
+      "absTotalMatchCount": 13367503,
+      "relTotalMatchCount": 6.692064480613522e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "time",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "494084f29600e0c1d8a21184a61e4199",
+      "absTotalMatchCount": 13120424,
+      "relTotalMatchCount": 6.5683713271647805e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "Board",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "88ce327ec85d92367a59a60e3539035d",
+      "absTotalMatchCount": 13103081,
+      "relTotalMatchCount": 6.5596890419027326e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "former",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "37a53a2aa042bea8f82d947fdc89c7eb",
+      "absTotalMatchCount": 13044654,
+      "relTotalMatchCount": 6.530439207329379e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "idea",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "4818aeb1042936bff6de46cc2a4ee730",
+      "absTotalMatchCount": 12712987,
+      "relTotalMatchCount": 6.364399450308816e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "final",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "5d4b2ca92c939f8eb5f2c87f131acf37",
+      "absTotalMatchCount": 12510339,
+      "relTotalMatchCount": 6.2629494276032014e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "Government",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "73a57d3fd55d745981bd38595be23aab",
+      "absTotalMatchCount": 12405124,
+      "relTotalMatchCount": 6.210276496515941e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "book",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "be0a80f0ceef4cf08d1bf4f285d0df77",
+      "absTotalMatchCount": 12371712,
+      "relTotalMatchCount": 6.1935497182667605e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "committee",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "f4e22bacf0b8e343dc93cddddd398ffc",
+      "absTotalMatchCount": 12218139,
+      "relTotalMatchCount": 6.116667714314245e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "American",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "dd3542f559882ecba71a7544e054276f",
+      "absTotalMatchCount": 12058900,
+      "relTotalMatchCount": 6.036949186790561e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "cost",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "9219c03e6054debf3bae330bfbd2eade",
+      "absTotalMatchCount": 11873364,
+      "relTotalMatchCount": 5.944065805692753e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "method",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "53367e55a1973c9271e9340f7af81e18",
+      "absTotalMatchCount": 11787647,
+      "relTotalMatchCount": 5.901154000018593e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "difference",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "58b3e99584fecad6c06192ff982f7531",
+      "absTotalMatchCount": 11782881,
+      "relTotalMatchCount": 5.89876803613928e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "State",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "9bace262381ebd485cb1141aa18ee117",
+      "absTotalMatchCount": 11780833,
+      "relTotalMatchCount": 5.8977427625293695e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "answer",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "4ef424226df907d1acde1457f11a700d",
+      "absTotalMatchCount": 11645182,
+      "relTotalMatchCount": 5.829832903907329e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "value",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "2ea32deff9248673c70a7afbc4475174",
+      "absTotalMatchCount": 11209908,
+      "relTotalMatchCount": 5.611925215782287e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "CHAIRMAN",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "55f8f96ff72e2f4bc11548f6fac0a8d6",
+      "absTotalMatchCount": 11184221,
+      "relTotalMatchCount": 5.599065741554862e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "study",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "711c698fa10ed6c08715614e8d906854",
+      "absTotalMatchCount": 11114130,
+      "relTotalMatchCount": 5.5639766533750665e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "system",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "accbfe8a57a92b0886e92cd33bd404e3",
+      "absTotalMatchCount": 11070593,
+      "relTotalMatchCount": 5.542181078592516e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "process",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "0a4d4ea8ad401cbadd66afc036eb0c94",
+      "absTotalMatchCount": 11067425,
+      "relTotalMatchCount": 5.540595108477186e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "one",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "1fc1402caaf85bf59a37c886f340043d",
+      "absTotalMatchCount": 10946811,
+      "relTotalMatchCount": 5.480213101062284e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "authors",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "977102deeab6211776a93d196afdf503",
+      "absTotalMatchCount": 10915326,
+      "relTotalMatchCount": 5.464451021175553e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "name",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "bcda5413cb069d983bd6702c1b1f487b",
+      "absTotalMatchCount": 10854012,
+      "relTotalMatchCount": 5.433755891235104e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "word",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "1f72611cc292d0c41940b3168835557d",
+      "absTotalMatchCount": 10821408,
+      "relTotalMatchCount": 5.4174336154648335e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "major",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "d140a5e8b88942f115aca87a209065a5",
+      "absTotalMatchCount": 10784184,
+      "relTotalMatchCount": 5.398798466609706e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "original",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "9366276941842dd19c299b5308fed4ae",
+      "absTotalMatchCount": 10685806,
+      "relTotalMatchCount": 5.3495482873149045e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "majority",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "190d9d63dea524590f3eaef8a51375a3",
+      "absTotalMatchCount": 10570322,
+      "relTotalMatchCount": 5.2917344701435776e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "chief",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "d82303d0ce1eea43128f7c353b2f60c8",
+      "absTotalMatchCount": 10549983,
+      "relTotalMatchCount": 5.281552321729531e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "right",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "3749f30798daf09966162f1c8a028d39",
+      "absTotalMatchCount": 10538153,
+      "relTotalMatchCount": 5.275629964891036e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "government",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "5632cfca4664e31887cbab7e264569f5",
+      "absTotalMatchCount": 10497120,
+      "relTotalMatchCount": 5.255087947295603e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "Secretary",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "74fbec040d520fbefa49eddab4bc8108",
+      "absTotalMatchCount": 10471346,
+      "relTotalMatchCount": 5.242184918964632e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "above",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "3ec200b135792fc5af7699670f4681ac",
+      "absTotalMatchCount": 10301820,
+      "relTotalMatchCount": 5.157316494163045e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "patient",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "e39c68279aecad9096bdabdcc06246f1",
+      "absTotalMatchCount": 10148480,
+      "relTotalMatchCount": 5.0805511351085324e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "very",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "5757b829393a163ee2f5587ecfbc7f4b",
+      "absTotalMatchCount": 10069773,
+      "relTotalMatchCount": 5.041148688812044e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "New",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "d7d048d19ffbab128c8e4c79fa80bc87",
+      "absTotalMatchCount": 9982162,
+      "relTotalMatchCount": 4.997288705297469e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "defendant",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "3e0fd1dae1c443305a91dbbf77fc44b4",
+      "absTotalMatchCount": 9936662,
+      "relTotalMatchCount": 4.974510409764794e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "law",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "a979a6929c9e91d7898288990e9d32e1",
+      "absTotalMatchCount": 9934943,
+      "relTotalMatchCount": 4.973649840753351e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "young",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "5498547da81bc12315f4ed5e419d10bf",
+      "absTotalMatchCount": 9794738,
+      "relTotalMatchCount": 4.9034601500905235e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "state",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "169c135e13b4905bd5ab1a6702c8a9c8",
+      "absTotalMatchCount": 9741096,
+      "relTotalMatchCount": 4.8766057912122e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "evidence",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "06f135aaa80af36df3f8d4259cd29165",
+      "absTotalMatchCount": 9551883,
+      "relTotalMatchCount": 4.781881623462222e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "men",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "9cf349e6aa7523eb9e167d4c9963d901",
+      "absTotalMatchCount": 9547789,
+      "relTotalMatchCount": 4.779832077486161e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "point",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "5dab1e7e1f08b4d04ce32d209a09c44d",
+      "absTotalMatchCount": 9544686,
+      "relTotalMatchCount": 4.778278647793021e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "remaining",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "00ffef5deabe03b8e6df0a1ee47bbf2e",
+      "absTotalMatchCount": 9483259,
+      "relTotalMatchCount": 4.74752694758015e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "National",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "9e13c11f9bdaef63f2f60f39697c091a",
+      "absTotalMatchCount": 9421142,
+      "relTotalMatchCount": 4.716429818270191e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "Department",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "f6ee7629b6e1449e7431dbfd9c3dfcbd",
+      "absTotalMatchCount": 9392634,
+      "relTotalMatchCount": 4.70215808971974e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "basic",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    },
+    {
+      "id": "eef91f919468c82dd4f5ea392efb3b3a",
+      "absTotalMatchCount": 9238484,
+      "relTotalMatchCount": 4.624987226942559e-06,
+      "tokens": [
+        {
+          "text": "_START_",
+          "kind": "SENTENCE_START"
+        },
+        {
+          "text": "The",
+          "kind": "TERM"
+        },
+        {
+          "text": "presence",
+          "kind": "TERM",
+          "inserted": true
+        }
+      ]
+    }
+  ],
+  "nextPageToken": "c1f4086341d536f8b1cd5126eda166b670ccccf0dad8c798ecf0c214b750c392e5c0158103bd48a1a385a6f6a804c19c",
+  "nextPageLink": "https://api.ngrams.dev/eng/search?query=_START_+The+%2A&start=c1f4086341d536f8b1cd5126eda166b670ccccf0dad8c798ecf0c214b750c392e5c0158103bd48a1a385a6f6a804c19c"
+}

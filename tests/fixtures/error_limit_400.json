@@ -1,0 +1,8 @@
+{
+  "status": 400,
+  "body": {
+    "error": {
+      "code": "INVALID_PARAMETER.LIMIT"
+    }
+  }
+}

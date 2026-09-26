@@ -1,0 +1,251 @@
+{
+  "status": 200,
+  "body": {
+    "results": [
+      {
+        "query": "on the table *",
+        "queryTokens": [
+          {
+            "text": "on",
+            "kind": "TERM"
+          },
+          {
+            "text": "the",
+            "kind": "TERM"
+          },
+          {
+            "text": "table",
+            "kind": "TERM"
+          },
+          {
+            "text": "*",
+            "kind": "TERM"
+          }
+        ],
+        "ngrams": [
+          {
+            "id": "bfb7f49f6b3048d71c3587e3f79ae0d3",
+            "absTotalMatchCount": 1642,
+            "relTotalMatchCount": 8.662270539871006e-10,
+            "tokens": [
+              {
+                "text": "on",
+                "kind": "TERM"
+              },
+              {
+                "text": "the",
+                "kind": "TERM"
+              },
+              {
+                "text": "table",
+                "kind": "TERM"
+              },
+              {
+                "text": "*",
+                "kind": "TERM"
+              }
+            ]
+          },
+          {
+            "id": "27d472fdb5b3de5b21c25cb6beee306c",
+            "absTotalMatchCount": 522,
+            "relTotalMatchCount": 2.753779063223304e-10,
+            "tokens": [
+              {
+                "text": "on",
+                "kind": "TERM"
+              },
+              {
+                "text": "the",
+                "kind": "TERM"
+              },
+              {
+                "text": "Table",
+                "kind": "TERM"
+              },
+              {
+                "text": "*",
+                "kind": "TERM"
+              }
+            ]
+          },
+          {
+            "id": "b976ef6e6d5a3a14f70f780a3a881194",
+            "absTotalMatchCount": 128,
+            "relTotalMatchCount": 6.752561687597374e-11,
+            "tokens": [
+              {
+                "text": "ON",
+                "kind": "TERM"
+              },
+              {
+                "text": "THE",
+                "kind": "TERM"
+              },
+              {
+                "text": "TABLE",
+                "kind": "TERM"
+              },
+              {
+                "text": "*",
+                "kind": "TERM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "query": "the cat *",
+        "queryTokens": [
+          {
+            "text": "the",
+            "kind": "TERM"
+          },
+          {
+            "text": "cat",
+            "kind": "TERM"
+          },
+          {
+            "text": "*",
+            "kind": "TERM"
+          }
+        ],
+        "ngrams": [
+          {
+            "id": "33931bb7387d4b1a709c16df86003eb3",
+            "absTotalMatchCount": 1810,
+            "relTotalMatchCount": 9.061256025085967e-10,
+            "tokens": [
+              {
+                "text": "the",
+                "kind": "TERM"
+              },
+              {
+                "text": "cat",
+                "kind": "TERM"
+              },
+              {
+                "text": "*",
+                "kind": "TERM"
+              }
+            ]
+          },
+          {
+            "id": "2a9a672154d1c3a4c15339a5dc6bc0fe",
+            "absTotalMatchCount": 1041,
+            "relTotalMatchCount": 5.211473769124029e-10,
+            "tokens": [
+              {
+                "text": "the",
+                "kind": "TERM"
+              },
+              {
+                "text": "Cat",
+                "kind": "TERM"
+              },
+              {
+                "text": "*",
+                "kind": "TERM"
+              }
+            ]
+          },
+          {
+            "id": "0e4fab7874e7c2dae63636c21522dcda",
+            "absTotalMatchCount": 363,
+            "relTotalMatchCount": 1.8172574238155834e-10,
+            "tokens": [
+              {
+                "text": "THE",
+                "kind": "TERM"
+              },
+              {
+                "text": "CAT",
+                "kind": "TERM"
+              },
+              {
+                "text": "*",
+                "kind": "TERM"
+              }
+            ]
+          },
+          {
+            "id": "2f663508e4b4e2365726536631ce1cd7",
+            "absTotalMatchCount": 290,
+            "relTotalMatchCount": 1.4518034515331107e-10,
+            "tokens": [
+              {
+                "text": "The",
+                "kind": "TERM"
+              },
+              {
+                "text": "Cat",
+                "kind": "TERM"
+              },
+              {
+                "text": "*",
+                "kind": "TERM"
+              }
+            ]
+          },
+          {
+            "id": "9c7e6bf11d7f6096a5310bd8edafe7e4",
+            "absTotalMatchCount": 284,
+            "relTotalMatchCount": 1.4217661387427704e-10,
+            "tokens": [
+              {
+                "text": "the",
+                "kind": "TERM"
+              },
+              {
+                "text": "CAT",
+                "kind": "TERM"
+              },
+              {
+                "text": "*",
+                "kind": "TERM"
+              }
+            ]
+          },
+          {
+            "id": "1c6a7d9664d2b8d705f13073ff1bd2fa",
+            "absTotalMatchCount": 170,
+            "relTotalMatchCount": 8.510571957263062e-11,
+            "tokens": [
+              {
+                "text": "The",
+                "kind": "TERM"
+              },
+              {
+                "text": "cat",
+                "kind": "TERM"
+              },
+              {
+                "text": "*",
+                "kind": "TERM"
+              }
+            ]
+          },
+          {
+            "id": "8824518f2b14d727aba15982452b3d84",
+            "absTotalMatchCount": 67,
+            "relTotalMatchCount": 3.354166594921325e-11,
+            "tokens": [
+              {
+                "text": "The",
+                "kind": "TERM"
+              },
+              {
+                "text": "CAT",
+                "kind": "TERM"
+              },
+              {
+                "text": "*",
+                "kind": "TERM"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

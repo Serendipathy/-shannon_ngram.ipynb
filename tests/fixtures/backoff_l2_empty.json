@@ -1,0 +1,18 @@
+{
+  "query": "green quixotic *",
+  "queryTokens": [
+    {
+      "text": "green",
+      "kind": "TERM"
+    },
+    {
+      "text": "quixotic",
+      "kind": "TERM"
+    },
+    {
+      "text": "*",
+      "kind": "STAR"
+    }
+  ],
+  "ngrams": []
+}

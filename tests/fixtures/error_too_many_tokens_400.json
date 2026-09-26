@@ -1,0 +1,35 @@
+{
+  "status": 400,
+  "body": {
+    "error": {
+      "code": "INVALID_QUERY.TOO_MANY_TOKENS"
+    },
+    "query": "_START_ In the beginning of *",
+    "queryTokens": [
+      {
+        "text": "_START_",
+        "kind": "SENTENCE_START"
+      },
+      {
+        "text": "In",
+        "kind": "TERM"
+      },
+      {
+        "text": "the",
+        "kind": "TERM"
+      },
+      {
+        "text": "beginning",
+        "kind": "TERM"
+      },
+      {
+        "text": "of",
+        "kind": "TERM"
+      },
+      {
+        "text": "*",
+        "kind": "STAR"
+      }
+    ]
+  }
+}

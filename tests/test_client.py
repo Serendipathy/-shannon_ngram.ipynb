@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import pytest
@@ -291,5 +292,80 @@ def test_unparsable_error_body_still_raises(settings):
 def test_search_page_from_json_reads_next_page_token():
     raw = {"query": "a *", "queryTokens": [], "ngrams": [], "nextPageToken": "tok"}
     assert SearchPage.from_json(raw, query="a *").next_page_token == "tok"
+
+
+# --- captured responses: pin the real wire shape -------------------------------
+
+
+def load_fixture(name):
+    return json.loads((FIXTURES / name).read_text(encoding="utf-8"))
+
+
+def test_captured_search_page_parses(settings):
+    body = load_fixture("on_the_table_star.json")
+    session = FakeSession([FakeResponse(200, body)])
+    page_ = NgramClient(settings, session=session).search("on the table *")
+    assert len(page_.ngrams) == 100
+    assert page_.query_tokens[-1].kind == "STAR"
+    assert all(n.inserted_token is not None for n in page_.ngrams)
+
+
+def test_captured_sentence_end_is_a_sentence_end_token():
+    body = load_fixture("the_table_dot_star.json")
+    kinds = {
+        t["kind"]
+        for n in body["ngrams"]
+        for t in n["tokens"]
+        if t.get("inserted") and t["text"] == "_END_"
+    }
+    assert kinds == {"SENTENCE_END"}
+
+
+def test_captured_sentence_start_query_token():
+    body = load_fixture("start_the_star.json")
+    assert body["queryTokens"][0]["kind"] == "SENTENCE_START"
+
+
+def test_captured_limit_error_matches_the_clients_own_code():
+    captured = load_fixture("error_limit_400.json")
+    assert captured["status"] == 400
+    assert captured["body"]["error"]["code"] == "INVALID_PARAMETER.LIMIT"
+
+
+def test_captured_too_many_tokens_error_is_raised(settings):
+    captured = load_fixture("error_too_many_tokens_400.json")
+    session = FakeSession([FakeResponse(captured["status"], captured["body"])])
+    with pytest.raises(NgramApiError) as excinfo:
+        NgramClient(settings, session=session).search("_START_ In the beginning of *")
+    assert excinfo.value.code == "INVALID_QUERY.TOO_MANY_TOKENS"
+
+
+def test_captured_batch_response_has_no_star_expansion():
+    """D-006, pinned against the real response."""
+    captured = load_fixture("batch_response.json")
+    assert captured["status"] == 200
+    first = captured["body"]["results"][0]
+    assert [t["kind"] for t in first["queryTokens"]][-1] == "TERM"
+    assert not any(
+        t.get("inserted") for n in first["ngrams"] for t in n["tokens"]
+    )
+
+
+def test_backoff_fixtures_are_empty_at_4_3_2_and_populated_at_1():
+    for name in ("backoff_l4_empty.json", "backoff_l3_empty.json", "backoff_l2_empty.json"):
+        body = load_fixture(name)
+        assert body["ngrams"] == [], name
+        assert "nextPageToken" not in body, name
+    assert load_fixture("backoff_l1_ok.json")["ngrams"]
+
+
+def test_walk_corpus_is_closed():
+    """Every successor it offers has its own entry, so an offline walk cannot miss."""
+    corpus = load_fixture("walk_corpus.json")
+    assert "_START_ *" in corpus
+    for query, body in corpus.items():
+        for ngram in body["ngrams"]:
+            word = next(t["text"] for t in ngram["tokens"] if t.get("inserted"))
+            assert word == "_END_" or f"{word} *" in corpus, f"{query} -> {word}"
 
 
