@@ -20,10 +20,15 @@ SENTENCE_END = "_END_"
 
 WILDCARD = "*"
 
+#: A lone double quote is a corpus token but never a legal query term, so it is
+#: kept in the text and left out of every query (D-009).
+DOUBLE_QUOTE = '"'
+
 #: A context the API will not parse is read as "no continuations at this level"
 #: and the model backs off. Two ways it happens, both driven by what the sampler
 #: emitted rather than by a bug here:
-#:   BAD_TERM_GROUP    — a legal corpus token that is not a legal query term (`"`)
+#:   BAD_TERM_GROUP    — a legal corpus token that is not a legal query term
+#:                       (a lone `"` is stripped before it gets here, D-009)
 #:   TOO_MANY_TOKENS   — one corpus token the API re-splits into several (`don't`),
 #:                       so a 4-word context can exceed the 5-token cap
 #: build_query's own ≤ 5 space-separated tokens are pinned by unit test, so this
@@ -85,6 +90,11 @@ def entropy_bits(dist: Mapping[str, float]) -> float:
     return -sum(p * math.log2(p) for p in dist.values() if p > 0)
 
 
+def query_words(context: Sequence[str]) -> list[str]:
+    """The context words a query may carry: no blanks, ``_START_`` or lone ``"``."""
+    return [w for w in context if w and w != SENTENCE_START and w != DOUBLE_QUOTE]
+
+
 def build_query(
     context: Sequence[str],
     *,
@@ -100,7 +110,7 @@ def build_query(
         raise ValueError("max_tokens must leave room for a context word and the wildcard")
     prefix = [SENTENCE_START] if at_sentence_start else []
     room = max_tokens - len(prefix) - 1
-    words = [w for w in context if w and w != SENTENCE_START][-room:] if room > 0 else []
+    words = query_words(context)[-room:] if room > 0 else []
     return " ".join([*prefix, *words, WILDCARD])
 
 
@@ -146,7 +156,7 @@ class NextWordModel:
         Level 0 exists only at a sentence start with nothing generated yet: the
         query is then ``_START_ *``.
         """
-        words = [w for w in context if w and w != SENTENCE_START]
+        words = query_words(context)
         if not words:
             return [0] if at_sentence_start else []
         top = min(self.settings.context_length, len(words))
@@ -155,9 +165,14 @@ class NextWordModel:
     def distribution(
         self, context: Sequence[str], *, at_sentence_start: bool = False
     ) -> Distribution | None:
-        """First level with a non-empty aggregate, or None if all are empty."""
+        """First level with a non-empty aggregate, or None if all are empty.
+
+        After a ``"`` the next piece may not be another ``"`` (D-009): the quote
+        is the top successor of many contexts, so without this ``" "`` appears.
+        """
         settings = self.settings
-        words = [w for w in context if w and w != SENTENCE_START]
+        words = query_words(context)
+        after_quote = bool(context) and context[-1] == DOUBLE_QUOTE
 
         for level in self.levels(words, at_sentence_start=at_sentence_start):
             used = words[-level:] if level else []
@@ -167,6 +182,8 @@ class NextWordModel:
             query = build_query(used, at_sentence_start=use_start)
             ngrams = self._search(query)
             counts = aggregate_counts(ngrams, case_sensitive=settings.case_sensitive)
+            if after_quote:
+                counts.pop(DOUBLE_QUOTE, None)
             if counts:
                 dist = counts_to_distribution(counts)
                 return Distribution(

@@ -7,7 +7,7 @@ from dataclasses import dataclass
 from typing import Sequence
 
 from .config import Settings
-from .model import SENTENCE_END, SENTENCE_START, NextWordModel
+from .model import SENTENCE_END, SENTENCE_START, NextWordModel, query_words
 
 STOP_END_TOKEN = "end_token"
 STOP_LENGTH_GUARD = "length_guard"
@@ -60,19 +60,39 @@ class Paragraph:
 
 
 def detokenise(tokens: Sequence[str]) -> str:
-    """Render token space as prose. Presentation only — sampling never sees this."""
+    """Render token space as prose. Presentation only — sampling never sees this.
+
+    A lone ``"`` is ambiguous, so quotes are counted within the tokens: odd ones
+    open (glued to the next word), even ones close (glued to the previous). An
+    odd count is closed after the final piece, unless the unmatched quote has no
+    word after it — then there is nothing quoted and the quote is dropped.
+    """
+    pieces = [t for t in tokens if t and t not in (SENTENCE_START, SENTENCE_END)]
+    quote_positions = [i for i, t in enumerate(pieces) if t == '"']
+    if len(quote_positions) % 2 == 1:
+        last = quote_positions[-1]
+        if not any(c.isalnum() for t in pieces[last + 1 :] for c in t):
+            del pieces[last]
+
     out: list[str] = []
     glue_next = False
-    for token in tokens:
-        if not token or token in (SENTENCE_START, SENTENCE_END):
-            continue
+    quotes = 0
+    for token in pieces:
+        opening_quote = False
+        if token == '"':
+            quotes += 1
+            opening_quote = quotes % 2 == 1
         if not out:
             out.append(token)
-        elif glue_next or token in INFIX or token[0] in CLOSING:
+        elif glue_next or (
+            not opening_quote and (token in INFIX or token[0] in CLOSING)
+        ):
             out[-1] += token
         else:
             out.append(token)
-        glue_next = token[-1] in OPENING or token in INFIX
+        glue_next = opening_quote or token[-1] in OPENING or token in INFIX
+    if quotes % 2 == 1 and out:
+        out[-1] += '"'
     text = " ".join(out)
     while "  " in text:
         text = text.replace("  ", " ")
@@ -142,7 +162,7 @@ class ParagraphGenerator:
             # enough to fill the context on its own (D-007).
             result = self.sample_next(
                 tokens,
-                at_sentence_start=len(tokens) < self.settings.context_length,
+                at_sentence_start=len(query_words(tokens)) < self.settings.context_length,
                 index=len(steps),
             )
             if result is None:
@@ -161,9 +181,8 @@ class ParagraphGenerator:
                 break
             tokens.append(word)
 
-        if stop_reason in (STOP_LENGTH_GUARD, STOP_DEAD_END) and tokens:
-            if tokens[-1] not in TERMINAL_PUNCTUATION:
-                tokens.append(".")
+        if tokens and tokens[-1] not in TERMINAL_PUNCTUATION:
+            tokens.append(".")
 
         return Sentence(
             tokens=tuple(tokens),
@@ -185,5 +204,4 @@ class ParagraphGenerator:
 
 
 def _requested_level(context: Sequence[str], settings: Settings) -> int:
-    words = [w for w in context if w and w != SENTENCE_START]
-    return min(settings.context_length, len(words))
+    return min(settings.context_length, len(query_words(context)))

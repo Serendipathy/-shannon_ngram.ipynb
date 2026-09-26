@@ -249,6 +249,13 @@ def test_no_backoff_flag_when_the_full_context_hits(settings):
         (["50", "%", "of", "it"], "50% of it"),
         (["$", "5", "each"], "$5 each"),
         (["a", ";", "b", ":", "c"], "a; b: c"),
+        (['"', "Yes", '"', "."], '"Yes".'),
+        (["she", "said", ",", '"', "no", '"', "."], 'she said, "no".'),
+        (['"', "a", '"', "and", '"', "b", "c", '"'], '"a" and "b c"'),
+        (["he", "said", '"', "wait"], 'he said "wait"'),
+        (["he", "said", '"', "wait", "."], 'he said "wait."'),
+        (["he", "said", '"', "."], "he said."),
+        (['"', "a", '"', "b", '"', "!"], '"a" b!'),
     ],
 )
 def test_detokenise_punctuation_spacing(tokens, expected):
@@ -257,3 +264,44 @@ def test_detokenise_punctuation_spacing(tokens, expected):
 
 def test_detokenise_collapses_double_spaces():
     assert "  " not in detokenise(["a", "", "", "b"])
+
+
+# --- lone double quote (D-009) -------------------------------------------------
+
+
+def test_sample_next_never_follows_a_double_quote_with_one(settings):
+    corpus = {"ctx *": _rows({'"': 900, "a": 100})}
+    generator = ParagraphGenerator(
+        NextWordModel(CorpusClient(corpus), settings), settings, seed=0
+    )
+    draws = [generator.sample_next(["ctx", '"'])[0] for _ in range(200)]
+    assert set(draws) == {"a"}
+
+
+def test_double_quote_is_kept_in_the_text_and_out_of_the_query(settings):
+    client = CorpusClient(
+        {
+            "_START_ *": _rows({'"': 10**9, "Yes": 1}),
+            "Yes *": _rows({"_END_": 1}),
+        }
+    )
+    generator = ParagraphGenerator(NextWordModel(client, settings), settings, seed=0)
+    sentence = generator.sentence()
+    assert sentence.tokens == ('"', "Yes", ".")
+    assert sentence.text == '"Yes."'
+    assert all('"' not in q.split() for q in client.queries)
+    assert sentence.stop_reason == STOP_END_TOKEN
+
+
+def test_end_token_after_a_non_terminal_piece_closes_with_a_period(settings):
+    client = CorpusClient(
+        {
+            "_START_ *": _rows({"Chapter": 1}),
+            "Chapter *": _rows({"_END_": 1}),
+        }
+    )
+    generator = ParagraphGenerator(NextWordModel(client, settings), settings, seed=0)
+    sentence = generator.sentence()
+    assert sentence.stop_reason == STOP_END_TOKEN
+    assert sentence.tokens == ("Chapter", ".")
+    assert sentence.text == "Chapter."

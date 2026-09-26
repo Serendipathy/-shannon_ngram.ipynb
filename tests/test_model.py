@@ -201,6 +201,64 @@ def test_build_query_drops_a_stray_sentence_start_token():
     assert build_query(["_START_", "the"], at_sentence_start=True) == "_START_ the *"
 
 
+# --- lone double quote (D-009) -------------------------------------------------
+
+
+def _quote_rows(counts: dict[str, int]) -> list[Ngram]:
+    return [
+        Ngram.from_json(
+            {
+                "id": f"{word}-{count}",
+                "absTotalMatchCount": count,
+                "tokens": [{"text": word, "kind": "TERM", "inserted": True}],
+            }
+        )
+        for word, count in counts.items()
+    ]
+
+
+def test_build_query_strips_a_lone_double_quote():
+    assert build_query(["she", "said", ",", '"'], at_sentence_start=False) == "she said , *"
+
+
+def test_context_ending_in_a_double_quote_is_queried_without_it():
+    client = FixtureClient({"she said , *": _quote_rows({"I": 10})})
+    settings = load_settings(context_length=4, min_context_length=1)
+    dist = NextWordModel(client, settings).distribution(["she", "said", ",", '"'])
+    assert all('"' not in q.split() for q in client.queries)
+    assert client.queries[0] == "she said , *"
+    assert dist.context == ("she", "said", ",")
+    assert dist.level == 3
+
+
+def test_no_double_quote_candidate_after_a_double_quote():
+    client = FixtureClient({"said , *": _quote_rows({'"': 900, "I": 60, "and": 40})})
+    settings = load_settings(context_length=2, min_context_length=1)
+    dist = NextWordModel(client, settings).distribution(["said", ",", '"'])
+    assert '"' not in dist.counts
+    assert '"' not in dist.dist
+    assert dist.total_count == 100
+    assert sum(dist.dist.values()) == pytest.approx(1.0)
+    assert dist.candidates == 2
+
+
+def test_double_quote_stays_a_candidate_when_not_after_one():
+    client = FixtureClient({"said , *": _quote_rows({'"': 900, "I": 100})})
+    settings = load_settings(context_length=2, min_context_length=1)
+    dist = NextWordModel(client, settings).distribution(["said", ","])
+    assert dist.counts['"'] == 900
+
+
+def test_only_a_double_quote_after_one_backs_off():
+    client = FixtureClient(
+        {"said , *": _quote_rows({'"': 900}), ", *": _quote_rows({"I": 5})}
+    )
+    settings = load_settings(context_length=2, min_context_length=1)
+    dist = NextWordModel(client, settings).distribution(["said", ",", '"'])
+    assert dist.level == 1
+    assert dist.counts == {"I": 5}
+
+
 # --- AC 7: backoff -------------------------------------------------------------
 
 
@@ -324,13 +382,13 @@ class RaisingClient(FixtureClient):
 
 
 def test_unqueryable_context_is_treated_as_empty_and_backs_off():
-    """A bare `"` is a real corpus token but an illegal query term."""
+    """A corpus token that is not a legal query term backs off, not raises."""
     settings = load_settings(context_length=4, min_context_length=1)
     client = RaisingClient(
         "INVALID_QUERY.BAD_TERM_GROUP",
-        {'" *': load_ngrams("backoff_l1_ok.json")},
+        {"x *": load_ngrams("backoff_l1_ok.json")},
     )
-    dist = NextWordModel(client, settings).distribution(["said", ",", "and", '"'])
+    dist = NextWordModel(client, settings).distribution(["said", ",", "and", "x"])
     assert dist is not None
     assert dist.level == 1
     assert len(client.raised_for) == 3
@@ -339,7 +397,7 @@ def test_unqueryable_context_is_treated_as_empty_and_backs_off():
 def test_unqueryable_context_at_every_level_returns_none():
     settings = load_settings(context_length=4, min_context_length=1)
     client = RaisingClient("INVALID_QUERY.BAD_TERM_GROUP")
-    assert NextWordModel(client, settings).distribution(["a", "b", "c", '"']) is None
+    assert NextWordModel(client, settings).distribution(["a", "b", "c", "d"]) is None
 
 
 def test_too_many_tokens_also_backs_off():
